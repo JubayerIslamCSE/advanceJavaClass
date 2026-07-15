@@ -1,0 +1,409 @@
+2026-07-15T17:40:27.066+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T17:40:27.068+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:40:27.089+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-15T17:40:27.090+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-15T17:40:27.303+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T17:40:27.308+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:40:27.308+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:40:27.316+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 226 ms
+2026-07-15T17:40:27.346+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T17:40:27.414+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T17:40:27.420+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.474 seconds (process running for 0.675)
+2026-07-15T17:40:38.165+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:40:38.165+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:40:38.167+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-15T17:40:38.189+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=Md. Jubayer Islam, email=2023000000011@seu.edu.bd, message=hello)
+2026-07-15T17:40:41.921+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-2] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=Md. Jubayer Islam, email=2023000000011@seu.edu.bd, message=fff)
+2026-07-15T17:48:07.940+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T17:48:07.940+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:48:07.985+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T17:48:07.986+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:48:07.986+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:48:07.988+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 46 ms
+2026-07-15T17:48:07.992+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T17:48:08.001+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T17:48:08.003+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T17:48:08.003+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T17:48:23.200+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-5] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=ff, email=ffffff@af, message=fff)
+2026-07-15T17:49:51.304+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T17:49:51.304+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:49:51.355+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T17:49:51.356+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:49:51.356+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:49:51.358+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-07-15T17:49:51.362+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T17:49:51.373+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T17:49:51.374+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T17:49:51.375+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T17:49:51.435+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-07-15T17:49:51.443+06:00  INFO 22959 --- [demo_Spring]] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:49:51.449+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:49:51.499+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T17:49:51.500+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:49:51.546+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T17:49:51.547+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:49:51.547+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:49:51.550+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-07-15T17:49:51.558+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T17:49:51.577+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T17:49:51.578+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.089 seconds (process running for 564.858)
+2026-07-15T17:49:51.579+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:49:52.242+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:49:52.242+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:49:52.244+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-15T17:49:52.256+06:00  WARN 22959 --- [demo_Spring]] [http-nio-9091-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-07-15T17:50:11.509+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-3] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=fasdf, email=adfasd@hdfa, message=fadf)
+2026-07-15T17:50:46.207+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-4] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=Md. Jubayer Islam, email=2023000000011@seu.edu.bd, message=jj)
+2026-07-15T17:59:20.948+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T17:59:20.948+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:59:20.994+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T17:59:20.994+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:59:20.994+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:59:20.996+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 46 ms
+2026-07-15T17:59:21.001+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T17:59:21.010+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T17:59:21.012+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T17:59:21.012+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:00:33.111+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-10] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=Md. Jubayer Islam, email=2023000000011@seu.edu.bd, message=fasf)
+2026-07-15T18:02:08.484+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T18:02:08.489+06:00  INFO 22959 --- [demo_Spring]] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:02:08.492+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:02:08.546+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:02:08.546+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:02:08.587+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:02:08.588+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:02:08.588+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:02:08.590+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 43 ms
+2026-07-15T18:02:08.597+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:02:08.613+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T18:02:08.613+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.076 seconds (process running for 1301.9)
+2026-07-15T18:02:08.614+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:02:08.898+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:02:08.899+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:02:08.947+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:02:08.947+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:02:08.947+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:02:08.949+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-07-15T18:02:08.954+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:02:08.966+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T18:02:08.967+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:02:08.967+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:02:11.475+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:02:11.476+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:02:11.478+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:02:34.227+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-2] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=hehe, email=hehe@he, message=hehe)
+2026-07-15T18:02:53.808+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:02:53.809+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:02:53.854+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:02:53.854+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:02:53.854+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:02:53.856+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 46 ms
+2026-07-15T18:02:53.860+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:02:53.870+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T18:02:53.871+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:02:53.872+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:02:54.420+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T18:02:54.422+06:00  INFO 22959 --- [demo_Spring]] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:02:54.425+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:02:54.475+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:02:54.476+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:02:54.510+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:02:54.510+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:02:54.510+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:02:54.512+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 36 ms
+2026-07-15T18:02:54.516+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:02:54.527+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T18:02:54.528+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.061 seconds (process running for 1347.815)
+2026-07-15T18:02:54.528+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:02:57.505+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:02:57.505+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:02:57.507+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-15T18:03:07.261+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-2] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=hehe, email=hehe@he, message=he)
+2026-07-15T18:04:03.340+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:04:03.340+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:04:03.388+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:04:03.389+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:04:03.389+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:04:03.391+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-07-15T18:04:03.395+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:04:03.405+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T18:04:03.406+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:04:03.406+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:04:03.574+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T18:04:03.577+06:00  INFO 22959 --- [demo_Spring]] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:04:03.580+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:04:03.629+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:04:03.629+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:04:03.662+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:04:03.662+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:04:03.662+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:04:03.664+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 35 ms
+2026-07-15T18:04:03.668+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:04:03.678+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T18:04:03.679+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.058 seconds (process running for 1416.965)
+2026-07-15T18:04:03.679+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:04:05.419+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:04:05.419+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:04:05.421+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:04:10.311+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-3] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=Md. Jubayer Islam, email=2023000000011@seu.edu.bd, message=hehe)
+2026-07-15T18:08:22.832+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2026-07-15T18:08:22.834+06:00  INFO 22959 --- [demo_Spring]] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:08:22.837+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:08:22.886+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:08:22.886+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:08:22.919+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:08:22.920+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:08:22.920+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:08:22.922+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 35 ms
+2026-07-15T18:08:22.926+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:08:22.937+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T18:08:22.937+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.058 seconds (process running for 1676.223)
+2026-07-15T18:08:22.938+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:08:23.074+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:08:23.075+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:08:23.126+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:08:23.126+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:08:23.126+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:08:23.128+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 52 ms
+2026-07-15T18:08:23.133+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:08:23.144+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T18:08:23.146+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:08:23.146+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:08:23.761+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:08:23.762+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:08:23.763+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:08:34.174+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-2] c.example.demo_spring.IndexController    : Register Form submitted register(name=Md. Jubayer Islam, id=2023000000011, password=1234)
+2026-07-15T18:10:34.752+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:10:34.753+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:10:34.798+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:10:34.799+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:10:34.799+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:10:34.801+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 47 ms
+2026-07-15T18:10:34.805+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:10:34.815+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T18:10:34.816+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:10:34.817+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:10:34.920+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-07-15T18:10:34.922+06:00  INFO 22959 --- [demo_Spring]] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:10:34.923+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:10:34.972+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:10:34.972+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:10:35.005+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:10:35.005+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:10:35.005+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:10:35.007+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 34 ms
+2026-07-15T18:10:35.011+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:10:35.022+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T18:10:35.022+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.058 seconds (process running for 1808.308)
+2026-07-15T18:10:35.022+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:10:36.701+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:10:36.701+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:10:36.703+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-15T18:10:48.040+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-3] c.example.demo_spring.IndexController    : Register Form submitted register(name=Md. Jubayer Islam, id=2023000000011, password=dfa)
+2026-07-15T18:11:34.987+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T18:11:34.990+06:00  INFO 22959 --- [demo_Spring]] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:11:34.993+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:11:35.048+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:11:35.048+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:11:35.080+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:11:35.080+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:11:35.080+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:11:35.082+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 33 ms
+2026-07-15T18:11:35.086+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:11:35.096+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T18:11:35.096+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.056 seconds (process running for 1868.382)
+2026-07-15T18:11:35.097+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:11:35.162+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:11:35.162+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:11:35.209+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:11:35.209+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:11:35.209+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:11:35.212+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 48 ms
+2026-07-15T18:11:35.217+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:11:35.228+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T18:11:35.230+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:11:35.230+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:11:35.700+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:11:35.701+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:11:35.702+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:11:42.171+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-2] c.example.demo_spring.IndexController    : Register Form submitted register(name=Md. Jubayer Islam, id=2023000000011, password=daf)
+2026-07-15T18:12:09.348+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 19677 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:12:09.348+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:12:09.396+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:12:09.397+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:12:09.397+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:12:09.399+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-07-15T18:12:09.403+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:12:09.414+06:00  WARN 19677 --- [demo_Spring]] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-15T18:12:09.415+06:00  INFO 19677 --- [demo_Spring]] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:12:09.415+06:00 ERROR 19677 --- [demo_Spring]] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9091 or configure this application to listen on another port.
+
+2026-07-15T18:12:09.811+06:00  INFO 22959 --- [demo_Spring]] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T18:12:09.813+06:00  INFO 22959 --- [demo_Spring]] [Thread-29] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:12:09.815+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:12:09.866+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Starting DemoSpringApplication using Java 25 with PID 22959 (/Users/jubayerislam/IdeaProjects/demo_Spring/target/classes started by jubayerislam in /Users/jubayerislam/IdeaProjects/demo_Spring)
+2026-07-15T18:12:09.866+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:12:09.897+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-07-15T18:12:09.898+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:12:09.898+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:12:09.899+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 32 ms
+2026-07-15T18:12:09.903+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-07-15T18:12:09.913+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-07-15T18:12:09.913+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] c.e.demo_spring.DemoSpringApplication    : Started DemoSpringApplication in 0.054 seconds (process running for 1903.198)
+2026-07-15T18:12:09.913+06:00  INFO 22959 --- [demo_Spring]] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:12:10.264+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:12:10.265+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:12:10.266+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:12:21.772+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-2] c.example.demo_spring.IndexController    : Contact Form submitted Contact(name=keke, email=keke@keke, message=keke)
+2026-07-15T18:12:31.258+06:00  INFO 22959 --- [demo_Spring]] [http-nio-9091-exec-6] c.example.demo_spring.IndexController    : Register Form submitted register(name=keke, id=keke, password=keke)
+2026-07-15T18:31:03.265+06:00  INFO 22959 --- [demo_Spring]] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:31:03.267+06:00  INFO 22959 --- [demo_Spring]] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
